@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap chuyen doi tien te</title>
+    <script src="bai tap 7.2 chuyển đổi tiền tệ.js"></script>
+</head>
+<body>
+<table align="center" style="margin-top: 20%">
+    <tr>
+        <td><strong>Amount</strong></td>
+        <td><strong>From Currency</strong></td>
+        <td><strong>To Currency</strong></td>
+    </tr>
+    <tr>
+        <td><input id="amount" type="number"></td>
+        <td>
+            <select  id="tiente1">
+                <option  >VND</option>
+                <option  >USD</option>
+            </select>
+        </td>
+        <td>
+            <select  id="tiente2">
+                <option >USD</option>
+                <option >VND</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="ketQua()">Convert</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <strong  id="result">
+
+        </strong>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
